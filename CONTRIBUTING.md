@@ -8,8 +8,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [I Have a Question](#i-have-a-question)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
+- [Have a question or bug to report?](#have-a-question-or-bug-to-report)
 - [Contributing to Code](#contributing-to-code)
 - [Improving The Documentation](#improving-the-documentation)
 
@@ -37,18 +36,28 @@ For bugs, please post add an item to github repository's Issues e.g. [Flexiplex 
 
 ### Contributing to Code
 #### Testing
-Please ensure that your contributions build and pass all testing prior to submitting a pull request. If your change involves the implementation of new features, please provide
-tests (in unit test for or otherwise) which make an attempt to cover all edge cases.
+Please ensure that your contributions build and pass all testing prior to submitting a pull request. 
+
+Packages maintainers are responsible for contructing a set of test cases which must be run on each pull request. The tests may be small, but must cover all common usages of the tool. Ideally these will be added to a Github Action for continuous integration.
 
 #### Style
 We expect that:
-* All code and changes are well documented
-* Functions should have a comment to explain what they do, no matter if it's an internal or user-facing function.
-* Complex/convoluted lines of code should have their function documented
-* Do not use 'magic numbers', use a `#define` or otherwise explicitly given variable. Even better allow it to be changed with a command-line flag, configuration file, environment variable, or `.env` file.
-* If using code from the internet, ensure that you have permission by checking the license. Attribute code whenever possible, in a comment preferably, to acknowledge its ownership.
-* If you find yourself using the same code twice or more, consider putting it into a well-documented function.
-* You try to follow existing code style whenever possible
+* Significant commenting/documentation of code is expected including:
+   * A header to each file which describes it purpose, the authors/maintains and date of creation/modification.
+   * Each function should have a comment to explain what it does and how.
+   * Comments are expected within functions and inparicular for complex/convoluted lines of code.
+* Adhere to common coding styles and practises for the language, including:
+   * Do not use 'magic numbers', use a `#define` or otherwise explicitly given variable.
+   * Modular design
+   * Error checking. ie. checking that user input is in the expected format and print approporate error message if not.
+* Use of other's code or algorithm (e.g. from stackoverflow, chatGPT or elsewhere):
+   * Ensure that you have permission by checking the license.
+   * Attribute code whenever possible, in a comment preferably, to acknowledge its ownership.
+* Help/Usage information:
+   * All software should make available help/useage information which print to the user.
+   * Should also print the software name and version number
+   * Should describe how to cite the software
+
 
 #### Dependencies
 We want our projects to be accessible and easy to compile, so have a preference for a minimal dependency count. If dependencies must be used, please ensure that they compile and are linked to stable versions. If possible, try to create
