@@ -40,21 +40,21 @@ Examples of unacceptable behavior include:
 In addition, all community members must adhere to:
 * [The Walter and Eliza Hall Institute of Medical Research (WEHI) Code of Conduct](https://www.wehi.edu.au/wp-content/uploads/2023/07/code-of-conduct.pdf)
 * [The ABACBS Code of Conduct](https://www.abacbs.org/codeofconduct)
-* Relevant State and federal legislation regarding workplace behaviour, discrimination and bullying.
+* Relevant State and Federal legislation regarding workplace behaviour, discrimination and bullying.
 
 ## Enforcement Responsibilities
 
-Repository [Owners and members](https://github.com/orgs/DavidsonGroup/people) are responsible for clarifying and enforcing our standards of
+Repository [owners and members](https://github.com/orgs/DavidsonGroup/people) are responsible for clarifying and enforcing our standards of
 acceptable behavior and will take appropriate and fair corrective action in
 response to any behavior that they deem inappropriate, threatening, offensive,
 or harmful.
 
-Respository Ownsers have the right and responsibility to remove, edit, or reject
+Repository Owners have the right and responsibility to remove, edit, or reject
 comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.
 
-If required, in appropriate behaviour can be escalated beyond the Respository Owners by
+If required, in appropriate behaviour can be escalated beyond the Repository Owners by
 following guidelines in the [WEHI Code of Conduct](https://www.wehi.edu.au/wp-content/uploads/2023/07/code-of-conduct.pdf)
 
 ## Scope
@@ -68,7 +68,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the respository owner at
+reported to the repository owner at
 davidson.n@wehi.edu.au.
 All complaints will be reviewed and investigated promptly and fairly.
 
