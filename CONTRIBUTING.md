@@ -68,17 +68,35 @@ We expect that:
 Our projects follow the following versioning system:
 
 ```
-Flexiplex version 1 . 0 . 1
-                  │   │   └ dev version, or 0 for release
+Flexiplex version 1 . 00 . 1
+                  │   │   └ dev version, or absent for a release
                   │   └ minor version number
                   └ major version number
-                   (reserved for large updates)  
+                    
 ```
+The major version number should be incremented for large updates such as signficant restructing of the code that results in computational efficiency changes, new major features, or any changes that break backwards compatibilty (e.g. error when old command line options are provided by the user).
 
-### Improving The Documentation
-Updates to the documentation are welcomed. The kinds of changes appropriate to the documentation are:
+The minor version number should be incremented for all other releases.
+
+The version number is to be updated in the relevant sections of the code and a tagged added through Github (non-dev version only).
+
+For example, Flexiplex 1.00.1 is a developemental version. Once a stable release is ready (timing at the discretion of the software owner), the version should be incremented to version 1.01 in the code, tagged on Github and a release created on Github which describes the changes. A tarball asset may also be uploaded for the package (this is somewhat redundant, but allows download numbers to be tracked). Immediately following the release, the version should be incremented to the next dev version (1.01.1). 
+
+#### Documentation
+
+All sofware packages should have associated user documentation, such as GitHub Pages. The documentation should describe:
+* What the software is
+* How the software works
+* How it can be installed
+* How is can be run
+* What the software outputs in detail
+* How to get help and report issues
+* A short tutorial based on a small example dataset, with link to the data
+* Links to relevant documents such as papers which derscribe the software
+* How the software should be cited
+
+Updates to the documentation are welcomed, and may include:
 - Improved usage guidelines
 - More examples showing common use cases
 - Documentation of common exceptions which can occur
 
-Updates can usually be made to the `gh-pages` branch of any given repository, since we use GitHub Pages for hosting.
