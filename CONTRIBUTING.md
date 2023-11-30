@@ -10,7 +10,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [I Have a Question](#i-have-a-question)
 - [Have a question or bug to report?](#have-a-question-or-bug-to-report)
 - [Contributing to Code](#contributing-to-code)
-- [Improving The Documentation](#improving-the-documentation)
+- [Documentation](#documentation)
 
 
 ## Code of Conduct
@@ -82,7 +82,7 @@ The version number is to be updated in the relevant sections of the code and a t
 
 For example, Flexiplex 1.00.1 is a developemental version. Once a stable release is ready (timing at the discretion of the software owner), the version should be incremented to version 1.01 in the code, tagged on Github and a release created on Github which describes the changes. A tarball asset may also be uploaded for the package (this is somewhat redundant, but allows download numbers to be tracked). Immediately following the release, the version should be incremented to the next dev version (1.01.1). 
 
-#### Documentation
+### Documentation
 
 All sofware packages should have associated user documentation, such as GitHub Pages. The documentation should describe:
 * What the software is
