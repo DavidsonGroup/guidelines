@@ -40,7 +40,7 @@ Please ensure that your contributions build and pass all testing prior to submit
 
 Packages maintainers are responsible for contructing a set of test cases which must be run on each pull request. The tests may be small, but must cover all common usages of the tool. Ideally these will be added to a Github Action for continuous integration.
 
-#### Style
+#### Coding Style
 We expect that:
 * Significant commenting/documentation of code is expected including:
    * A header to each file which describes it purpose, the authors/maintains and date of creation/modification.
@@ -48,7 +48,8 @@ We expect that:
    * Comments are expected within functions and inparicular for complex/convoluted lines of code.
 * Adhere to common coding styles and practises for the language, including:
    * Do not use 'magic numbers', use a `#define` or otherwise explicitly given variable.
-   * Modular design
+   * Modular design.
+   * Variable names are descriptive.
    * Error checking. ie. checking that user input is in the expected format and print approporate error message if not.
 * Use of other's code or algorithm (e.g. from stackoverflow, chatGPT or elsewhere):
    * Ensure that you have permission by checking the license.
@@ -57,11 +58,11 @@ We expect that:
    * All software should make available help/useage information which print to the user.
    * Should also print the software name and version number
    * Should describe how to cite the software
+* Installation:
+     * A means to easily install/compile the package including dependencies should be provided. For example with Makefiles and Config. files.
+     * The package should have minimal dependencies to help in installation and maintainence. If dependencies are used, please ensure that they compile and are linked to stable versions.
+     * If possible, try to create builds for major platforms such as x86 Linux and Mac, and submit the package to package managers like bioconductor, bioconda or brew.
 
-
-#### Dependencies
-We want our projects to be accessible and easy to compile, so have a preference for a minimal dependency count. If dependencies must be used, please ensure that they compile and are linked to stable versions. If possible, try to create
-builds for major platforms such as x86 Linux and Mac.
 
 #### Versioning
 Our projects follow the following versioning system:
